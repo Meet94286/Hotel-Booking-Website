@@ -1,0 +1,112 @@
+body {
+    background-color: #e0e0e0;
+    padding-bottom: 80px;
+    position: relative;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 60px;
+  }
+  html{
+    height: 100%;
+  }
+  .navbar-light{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+  }
+  .btn-light{
+    margin-top: -46px;
+    margin-right: 2%;
+  }
+  #logo{
+    height: 60px;
+    width: 60px;
+  }
+  .logo-div{
+    margin-left: 1%;
+    height: 60px;
+  }
+ 
+footer{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.contact-div{
+    margin-left: 2%;
+}
+#contact{
+    text-decoration:none;
+    color:whitesmoke;
+}
+.apps{
+    margin-right: 2%;
+}
+#name{
+    font-size: 10px;
+}
+.btn {
+    float: none;
+}
+.login-btn {
+    
+      float: right;
+}
+.form{
+  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+}
+#e-mail{
+  margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+#modal-footer {
+    justify-content: center;
+    padding-bottom: 0em;
+}
+.login-input{
+  width: 13em;
+  align-items: center;
+}
+#username{
+  margin-left: 50px;
+  margin-top: 5px;
+}
+#password{
+  margin-top: 20px;
+  margin-left: 53px;
+  margin-bottom: 5px;
+}
+/* giving z index:0 to modal and opacity */
+.modal-backdrop.show{
+  opacity: 0 !important;
+}
+.modal-backdrop.show{
+  z-index: 0 !important;
+}
+.checked{
+  color: orange;
+}
+
+@media only screen and (max-width: 576px){
+  #username{
+    margin-left: 0%;
+  }
+  #password{
+    margin-left: 0%;
+  }
+}
+
+
+
+
+  

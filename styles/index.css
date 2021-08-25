@@ -1,0 +1,173 @@
+.content{
+    overflow-x: hidden;
+}
+.city{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
+.social-media-image{
+    height: 20px;
+    width: 22px;
+}
+#search-bar{
+background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+background-position: center;
+height: 380px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+#bar:focus{
+    outline: none;
+}
+
+/*changed*/
+.grid-container{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+     #bar{
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    left: 1%;
+    padding: 10px;
+    font-size: 16px;
+    justify-content: center;
+    width: 150%; 
+    margin-left: -15%;
+    margin-right: 30.5%;  
+}
+/*changed*/
+.view-div{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+#view{
+    text-decoration: none;
+    color: black;
+}
+/*changed*/
+.text{
+    visibility: hidden;
+   margin-top: -27%;
+    color: #f1f1f1;
+    text-align: center;
+    width: 32%;
+    margin-right: 0;
+    margin-left: 36%; 
+}
+.city-images:hover .text{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+._city:link{
+    text-decoration: none;
+}
+#container-2{
+    display: none;
+}
+/*changed*/
+@media only screen and (max-width: 576px){
+    #search-bar{
+        width: 133%;
+    }
+    .grid-container{
+        margin-left: 23%;
+        margin-bottom: 0;
+    }
+   .city{
+        margin-bottom: 52%;
+        height: 300px;
+        width: 300px;
+    }
+    .view-div{
+        margin-left: 32%;
+    }
+    .footer{
+        height: 6%;
+    }
+    #name{
+        font-weight: bold;
+    }
+    .city-images{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 25%;
+    }
+    .text{
+        margin-top: -107%;
+        margin-left: 35%;
+        font-size: x-large;
+    }
+    #container-2{
+        margin-top: -15%;
+    }
+}
+/*changed*/
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .row{
+        display: block;
+        width: 67%;
+        margin-top: 0%;
+    }
+    .city-images{
+        margin-right: -50%;
+        margin-bottom: 70%;
+        margin-left: 0%;
+    }
+    .city{
+        height: 250px;
+        width: 206px;
+    }
+    .view-div{
+        margin-top: -10%;
+    }
+    #row-1{
+        margin-left: 8%;
+    }
+    #row-2{
+        margin-left: 8%;
+    }
+    #bar{
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+    .text{
+        margin-top: -41%;
+        font-size: x-large;
+    }
+    #container-2{
+        margin-top: -20%;
+    }
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+

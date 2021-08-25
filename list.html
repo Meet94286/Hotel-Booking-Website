@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List</title>
+    <link rel="stylesheet" href="loader.html" />
+    <link rel="stylesheet" href="styles/list.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    /> 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      integrity="undefined"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="undefined"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body style="background-color: #e0e0e0;">
+    <div>
+     <div id="loading"></div>
+      <header id="header"></header>
+      
+      <div id="list-container">
+        <!-- Added nav pills/tabs for list view and map view using bootstrap --> 
+        <ul class="nav nav-pills mb-3" id="pills-tab">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#list-view">List View</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#map-view">Map View</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tab-content">
+            <div id="list-view" class="tab-pane fade show active">
+                <div id="hotel-list"></div>
+            </div>
+            <div id="map-view" class="tab-pane fade">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>                    
+ 
+    <footer id="footer"></footer>
+      </div>
+      <script src="scripts/common.js"></script>
+      <script src="scripts/list.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtitW_pphinQwsDd6hUoh0Y1jD6JO1W5s"></script>
+    </body>  
+</html>
